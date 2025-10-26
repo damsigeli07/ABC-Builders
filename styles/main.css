@@ -1,0 +1,365 @@
+
+body{
+    background-color: #95bfff;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    padding: 10px 25%;
+    margin: 0;
+    text-align: center;
+    background-color: #82b4ff;
+    font-weight: 400;
+}
+hr{
+    margin: 0;
+    height: 4px;
+    background-color: #000;
+    border: #000 solid 1px;
+}
+nav a{
+    display: inline-block;
+    padding: 10px 0px;
+    text-align: center;
+    width: 120px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin: 5px 2.5px;
+    background-color: #82b4ff;
+    transition: 0.4s;
+}
+.log_link{
+    float: right;
+    margin-right: 4px;
+}
+nav a:hover{
+    color: #82b4ff;
+    background-color: #000;
+}
+.active{
+    color: #82b4ff;
+    background-color: #000;
+}
+.description{
+    width: 600px;
+    max-width: calc(100% - 60px);
+    margin: 50px auto;
+    padding: 15px;
+    font-weight: 600;
+    border-top: #000 solid 2px;
+    border-bottom: #000 solid 2px;
+}
+#image_div{
+    width: 525px;
+    margin: auto;
+    padding: 0;
+}
+#image_div img{
+    width: 250px;
+    margin: 5px;
+}
+.forms{
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #82b4ff;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.header_2{
+    text-align: center;
+    font-weight: 400;
+}
+.input_div{
+    margin: 30px 0px;
+}
+.input_div label{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.input_div input{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    outline: none;
+    border: #adadad solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+}
+.input_div textarea{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 120px;
+    margin-top: 5px;
+    font-size: 16px;
+    outline: none;
+    border: #adadad solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    resize: none;
+}
+.input_div select{
+    display: block;
+    width: 280px;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.send_button{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+    border: #000 solid 1px;
+    border-radius: 20px;
+    background-color: #82b4ff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.send_button:hover{
+    color: #82b4ff;
+    background-color: #000;
+}
+#no_account{
+    margin-top: 20px;
+}
+#no_account a{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 50px;
+}
+footer strong{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#material_list{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+#material_list h3{
+    text-align: center;
+}
+.material_card{
+    border: #000 solid 1px;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.material_card img{
+    width: 200px;
+}
+.details{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+.details h4{
+    margin: 10px;
+    font-weight: 600;
+}
+.details p{
+    margin: 10px;
+}
+.view_material{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 8px 16px;
+    background-color: #82b4ff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border: #000 solid 1px;
+    transition: 0.4s;
+}
+.view_material:hover{
+    color: #82b4ff;
+    background-color: #000;
+}
+
+#system_msg{
+    position: fixed;
+    text-align: center;
+    top: 20px;
+    right: 20px;
+    border: #000 solid 1px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+    background-color: #000;
+    color: #82b4ff;
+}
+#error_msg{
+    color: #f00;
+}
+#success_msg{
+    color: #0f0;
+}
+.view_all_link , .add_mat_link{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    background-color: #82b4ff;
+    border: #000 solid 1px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.view_all_link:hover , .add_mat_link:hover{
+    color: #82b4ff;
+    background-color: #000;
+}
+#view_all_table{
+    width: fit-content;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+#view_all_table tr:nth-child(even){
+    background-color: #00000011;
+}
+#search_mat{
+    height: 600px;
+}
+#display_mat{
+    background-color: #00000033;
+    padding: 10px;
+    margin-top: 20px;
+    height: 270px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+#display_mat div.msg{
+    text-align: center;
+    font-weight: 600;
+}
+.search_result{
+    background-color: #00000033;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+#profile_content{
+    width: 360px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border: #000 solid 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #82b4ff;
+}
+#profile_content div{
+    margin: 10px auto;
+}
+#profile_content .key{
+    display: inline-block;
+    width: 120px;
+}
+#logout_button{
+    width: 350px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#change_pass{
+    margin-top: 30px;
+    padding: 10px;
+}
+#change_pass h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#change_pass .input_div{
+    margin-top: 10px;
+}
+.dark_msg{
+    width: 98%;
+    background-color: #00000033;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+#signup_form .input_div{
+    margin: 10px auto;
+}
+.error_msg, .account_exist{
+    color: red;
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    opacity: 0;
+}
+.account_exist{
+    opacity: 1;
+}
+.description_header{
+    font-weight: 600;
+    margin-top: 0;
+}
+
+
+.graph{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 30px;
+}
+.graph .rectangle{
+    width: calc(100% / 24);
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    writing-mode: vertical-lr;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.graph .rectangle:nth-child(odd){
+    background-color: darkcyan;
+}
+
+.graph .rectangle_month{
+    width: calc(100% / 24);
+    height: 200px;
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    writing-mode: vertical-lr;
+    padding-top: 20px;
+    font-weight: 600;
+    border-top: #fff solid 2px;
+}
+.graph .rectangle_month:nth-child(odd){
+    background-color: darkcyan;
+}
